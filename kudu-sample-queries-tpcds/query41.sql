@@ -47,6 +47,6 @@ select  distinct(i_product_name)
         (i_size = 'medium' or i_size = 'large')
         )))) > 0
  order by i_product_name
- limit 100;
+ limit 100
 
 -- end query 1 in stream 0 using template query41.tpl

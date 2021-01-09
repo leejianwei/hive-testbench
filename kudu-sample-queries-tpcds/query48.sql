@@ -62,6 +62,6 @@ select sum (ss_quantity)
   and ss_net_profit between 50 and 25000 
   )
  )
-;
+
 
 -- end query 1 in stream 0 using template query48.tpl

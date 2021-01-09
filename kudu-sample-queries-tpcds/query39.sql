@@ -49,6 +49,5 @@ where inv1.i_item_sk = inv2.i_item_sk
   and inv1.cov > 1.5
 order by inv1.w_warehouse_sk,inv1.i_item_sk,inv1.d_moy,inv1.mean,inv1.cov
         ,inv2.d_moy,inv2.mean, inv2.cov
-;
 
 -- end query 1 in stream 0 using template query39.tpl

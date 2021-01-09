@@ -53,6 +53,6 @@ order by
   other_chan_wholesale_cost,
   other_chan_sales_price,
   ratio
-limit 100;
+limit 100
 
 -- end query 1 in stream 0 using template query78.tpl

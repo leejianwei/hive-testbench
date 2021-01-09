@@ -9,6 +9,5 @@ select  i_brand_id brand_id, i_brand brand,
  	and d_year=1999
  group by i_brand, i_brand_id
  order by ext_price desc, i_brand_id
-limit 100 ;
-
+limit 100
 -- end query 1 in stream 0 using template query55.tpl

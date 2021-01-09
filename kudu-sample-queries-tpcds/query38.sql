@@ -18,6 +18,5 @@ select  count(*) from (
       and web_sales.ws_bill_customer_sk = customer.c_customer_sk
       and d_month_seq between 1186 and 1186 + 11
 ) hot_cust
-limit 100;
-
+limit 100
 -- end query 1 in stream 0 using template query38.tpl

@@ -23,6 +23,6 @@ and cs_ext_discount_amt
                              (cast('2002-03-29' as date) + 90 days)
           and d_date_sk = cs_sold_date_sk 
       ) 
-limit 100;
+limit 100
 
 -- end query 1 in stream 0 using template query32.tpl

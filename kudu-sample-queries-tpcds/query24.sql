@@ -102,6 +102,5 @@ having sum(netpaid) > (select 0.05*avg(netpaid)
 order by c_last_name
         ,c_first_name
         ,s_store_name
-;
 
 -- end query 1 in stream 0 using template query24.tpl

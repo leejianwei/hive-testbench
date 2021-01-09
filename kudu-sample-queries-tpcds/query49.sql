@@ -124,6 +124,6 @@ select  channel, item, return_ratio, return_rank, currency_rank from
  )
  ) y
  order by 1,4,5,2
- limit 100;
+ limit 100
 
 -- end query 1 in stream 0 using template query49.tpl

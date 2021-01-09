@@ -39,6 +39,6 @@ from
    and   d_year = 2001
    and   d_moy  = 12) all_sales
 order by promotions, total
-limit 100;
+limit 100
 
 -- end query 1 in stream 0 using template query61.tpl

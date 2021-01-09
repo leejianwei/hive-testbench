@@ -18,6 +18,6 @@ from ((select distinct c_last_name, c_first_name, d_date
          and web_sales.ws_bill_customer_sk = customer.c_customer_sk
          and d_month_seq between 1221 and 1221+11)
 ) cool_cust
-;
+
 
 -- end query 1 in stream 0 using template query87.tpl

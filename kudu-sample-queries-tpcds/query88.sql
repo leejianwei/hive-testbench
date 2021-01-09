@@ -89,6 +89,5 @@ from
           (household_demographics.hd_dep_count = 4 and household_demographics.hd_vehicle_count<=4+2) or
           (household_demographics.hd_dep_count = 3 and household_demographics.hd_vehicle_count<=3+2))
      and store.s_store_name = 'ese') s8
-;
 
 -- end query 1 in stream 0 using template query88.tpl

@@ -70,6 +70,6 @@ where i_category in ('Home'))
         select * from ws) tmp1
  group by i_manufact_id
  order by total_sales
-limit 100;
+limit 100
 
 -- end query 1 in stream 0 using template query33.tpl

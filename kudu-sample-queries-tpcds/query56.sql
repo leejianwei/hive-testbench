@@ -64,6 +64,5 @@ where i_color in ('chiffon','smoke','lace'))
  group by i_item_id
  order by total_sales,
           i_item_id
- limit 100;
-
+ limit 100
 -- end query 1 in stream 0 using template query56.tpl

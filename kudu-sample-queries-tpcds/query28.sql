@@ -48,6 +48,6 @@ from (select avg(ss_list_price) B1_LP
         and (ss_list_price between 180 and 180+10
           or ss_coupon_amt between 12592 and 12592+1000
           or ss_wholesale_cost between 22 and 22+20)) B6
-limit 100;
+limit 100
 
 -- end query 1 in stream 0 using template query28.tpl
