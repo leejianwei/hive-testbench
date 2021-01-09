@@ -67,5 +67,5 @@ select
         cr.cr_reversed_charge,
         cr.cr_store_credit,
         cr.cr_net_loss
-      from hive.tpcds_bin_partitioned_orc_2.catalog_returns cr
+      from hive.tpcds_bin_partitioned_orc_1000.catalog_returns cr
       where cr.cr_returned_date_sk is not null;

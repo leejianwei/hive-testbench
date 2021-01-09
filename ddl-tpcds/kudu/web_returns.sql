@@ -64,6 +64,6 @@ select
         wr.wr_reversed_charge,
         wr.wr_account_credit,
         wr.wr_net_loss
-        from hive.tpcds_bin_partitioned_orc_2.web_returns wr
+        from hive.tpcds_bin_partitioned_orc_1000.web_returns wr
         where wr.wr_returned_date_sk is not null
 ;

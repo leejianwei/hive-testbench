@@ -55,6 +55,6 @@ select
         sr.sr_reversed_charge,
         sr.sr_store_credit,
         sr.sr_net_loss
-        from hive.tpcds_bin_partitioned_orc_2.store_returns sr 
+        from hive.tpcds_bin_partitioned_orc_1000.store_returns sr 
         where sr.sr_returned_date_sk is not null;
 

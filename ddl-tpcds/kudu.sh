@@ -3,12 +3,12 @@ FACTS="store_sales store_returns web_sales web_returns catalog_sales catalog_ret
 
 for t in ${DIMS}
 do
-	presto-cli --catalog kudu --schema default -f ${t}
+	presto-cli --catalog kudu --schema default -f kudu/${t}.sql
 	echo "create Presto table over Kudu: " ${t}
 done
 
 for t in ${FACTS}
 do
-	presto-cli --catalog kudu --schema default -f ${t}
+	presto-cli --catalog kudu --schema default -f kudu/${t}.sql
 	echo "create Presto table over Kudu: " ${t}
 done

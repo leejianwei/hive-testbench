@@ -82,5 +82,5 @@ select
         cs.cs_net_paid_inc_ship,
         cs.cs_net_paid_inc_ship_tax,
         cs.cs_net_profit
-        from hive.tpcds_bin_partitioned_orc_2.catalog_sales cs
+        from hive.tpcds_bin_partitioned_orc_1000.catalog_sales cs
         where cs.cs_sold_date_sk is not null;

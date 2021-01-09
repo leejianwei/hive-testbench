@@ -62,6 +62,6 @@ select
         ss.ss_net_paid,
         ss.ss_net_paid_inc_tax,
         ss.ss_net_profit
-        from hive.tpcds_bin_partitioned_orc_2.store_sales ss
+        from hive.tpcds_bin_partitioned_orc_1000.store_sales ss
         where ss.ss_sold_date_sk is not null
 ;

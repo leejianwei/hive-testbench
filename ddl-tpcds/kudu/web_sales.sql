@@ -84,6 +84,6 @@ select
         ws.ws_net_paid_inc_ship,
         ws.ws_net_paid_inc_ship_tax,
         ws.ws_net_profit
-        from hive.tpcds_bin_partitioned_orc_2.web_sales ws
+        from hive.tpcds_bin_partitioned_orc_1000.web_sales ws
         where ws.ws_sold_date_sk is not null
 ;
