@@ -1,0 +1,7 @@
+{
+    "file_formats": {
+        "query": ["query.*"],
+        "schema": [ "tpcds_bin_partitioned_orc_1000" ],
+        "session": {}
+    }
+}
