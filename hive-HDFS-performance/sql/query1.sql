@@ -1,3 +1,4 @@
+use tpcds_bin_partitioned_orc_1000;
 -- start query 1 in stream 0 using template query1.tpl and seed 2031708268
 with customer_total_return as
 (select sr_customer_sk as ctr_customer_sk

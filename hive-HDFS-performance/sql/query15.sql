@@ -1,3 +1,4 @@
+use tpcds_bin_partitioned_orc_1000;
 -- start query 1 in stream 0 using template query15.tpl and seed 1819994127
 select  ca_zip
        ,sum(cs_sales_price)

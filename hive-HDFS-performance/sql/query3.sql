@@ -1,3 +1,4 @@
+use tpcds_bin_partitioned_orc_1000;
 -- start query 1 in stream 0 using template query3.tpl and seed 2031708268
 select  dt.d_year 
        ,item.i_brand_id brand_id 
